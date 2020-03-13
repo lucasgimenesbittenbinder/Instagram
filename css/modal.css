@@ -1,0 +1,46 @@
+
+#modal-ios {
+    text-align:center;
+    padding-top:10px;
+    height:58px;
+    width:150px;
+    border-radius:10px;
+    background:#e8e8e8;
+    animation-duration:.5s;
+    animation-name:popin;
+    margin:50px auto auto;
+    opacity:1;
+  }
+  
+  @keyframes popin {
+    from {
+      margin:100px auto auto;
+      opacity:0;
+    }
+    to {
+      margin:50px auto auto;
+    }
+  }
+  
+  .button-ios {
+    border-top:1px solid gray;
+    display:inline-block;
+    margin-top:11px;
+    width:50%;
+    padding:5px 0;
+    font-family:arial;
+    cursor:pointer;
+    box-sizing:border-box;
+  }
+  
+  .left-ios {
+    float:left;
+    border-right:1px solid gray;
+    border-bottom-left-radius:10px;
+  }
+  
+  .right-ios {
+    float:right;
+    border-right:1px solid gray;
+    border-bottom-right-radius:10px;
+  }
